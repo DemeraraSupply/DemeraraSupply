@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#aboutNav {
+	background-color: #009351;
+}
+
+#aboutNav .content {
+	height: 50px;
+	display: inline-table;
+}
+.content a .aboutOpp {
+	display: inline-table;
+	line-height: 50px;
+	width: 100px;
+}
+.content a .aboutOpp:hover {
+	text-decoration: underline;
+}
+
+
+.content a .aboutOpp.active {
+	background-color: #00528B;
+}
+#company {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-image: url(../images/placeholder/white-background-geo-shapes.jpg);
+}
+#company .content {
+	width: 60%;
+	display: inline-table;
+	text-align: left;
+	padding-bottom: 50px;
+}
+#company .content t {
+	margin-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	border-radius: 8px;
+	padding-bottom: 5px;
+}
+#company .content p {
+	border-radius: 10px;
+	color: hsla(0,0%,0%,1.00);
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 2.5px;
+
+}

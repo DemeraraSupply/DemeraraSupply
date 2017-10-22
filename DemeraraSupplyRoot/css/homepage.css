@@ -1,0 +1,90 @@
+@charset "utf-8";
+#landing {
+	background-image: url(../images/placeholder/OilRig2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-top: -50px;
+	background-attachment: fixed;
+}
+#landing .content {
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	background-color: hsla(0,0%,40%,0.50);
+}
+#landing .content t {
+	color: #FFEDED;
+	margin-bottom: 25px;
+}
+#landing .content .contentBox {
+	background-color: hsla(205,100%,27%,0.32);
+	display: inline-table;
+	padding-bottom: 20px;
+}
+
+#landing .content p {
+	color: #FFFFFF;
+	width: 60%;
+}
+#landing .button  {
+	margin-top: 20px;
+}
+#landing .button:hover  {
+}
+
+#info {
+}
+#info .content {
+	padding-top: 50px;
+	width: 80%;
+	display: inline-table;
+	padding-bottom: 50px;
+}
+#info .content .infoBox {
+	width: 350px;
+	text-align: center;
+	display: inline-table;
+}
+.content .infoBox img {
+	width: 100px;
+}
+.content .infoBox t1 {
+}
+.content .infoBox p {
+	width: 80%;
+}
+.infoBox a .button {
+	border-color: #009652;
+	color: #009652;
+}
+.infoBox a .button:hover {
+	background-color: #009652;
+	color: #FFFFFF;
+}
+
+#viewAll {
+	background-color: #B6B6B6;
+}
+#viewAll .content {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#viewAll .button  {
+	border-color: #009652;
+	color: #009652;
+}
+#viewAll .button:hover {
+	color: #FFFFFF;
+	background-color: #009652;
+}
+#map {
+}
+#map .content {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#map img {
+	width: 40%;
+}

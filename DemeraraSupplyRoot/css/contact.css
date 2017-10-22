@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#location {
+}
+#location .locNav {
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	background-color: #00528B;
+	display: inline-table;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 44px;
+}
+#location .locNav a {
+}
+.locNav .navOpp  {
+	display: inline-table;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.locNav .navOpp img {
+	width: 75px;
+	opacity: 0.5;
+}
+.locNav .navOpp img:hover {
+	opacity: 1;
+	-webkit-box-shadow: 0px 0px 7px;
+	box-shadow: 0px 0px 7px;
+}
+.locNav .navOpp.active img {
+	opacity: 1;
+	-webkit-box-shadow: 0px 0px 7px;
+	box-shadow: 0px 0px 7px;
+}

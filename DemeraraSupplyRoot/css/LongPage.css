@@ -1,0 +1,202 @@
+@charset "utf-8";
+#nav {
+	height: 100px;
+	width: 100%;
+	position: fixed;
+
+}
+#nav .logoArea {
+	width: 30%;
+	font-size: 25px;
+	vertical-align: middle;
+	background-color: #EDCD1F;
+	line-height: 100px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+#nav .logoArea img {
+	height: 80%;
+	vertical-align: middle;
+	display: inline-table;
+
+}
+#nav .logoArea .logoText {
+	display: inline-table;
+}
+#nav .navArea {
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	background-color: #1E2D3B;
+	float: left;
+	line-height: 125px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+
+@media (max-width:985px){
+#nav .logoArea img {
+	display: none;
+}
+
+}
+
+#nav .navArea a {
+	font-size: 20px;
+	margin-right: 8%;
+}
+
+#home {
+	background-image: url(../images/placeholder/OilRig2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 100px;
+}
+#home .inner {
+	background-color: hsla(0,0%,0%,0.40);
+	padding-top: 100px;
+	padding-bottom: 250px;
+}
+#home .inner t {
+	color: #FFFFFF;
+	width: 60%;
+	font-weight: 600;
+	font-size: 50px;
+}
+#services {
+}
+#services .inner {
+	padding-top: 100px;
+	width: 80%;
+	display: inline-block;
+}
+#services .inner t {
+	border-bottom: thick solid #EDCD1F;
+	color: #B6B6B6;
+	margin-bottom: 50px;
+}
+.serviceItem   {
+	width: 300px;
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.serviceItem .img  {
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	background-image: url(../images/placeholder/oilRig.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.serviceItem title  {
+	border-bottom-style: none;
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 900;
+	color: #3D5875;
+	margin-top: 5px;
+}
+.serviceItem p  {
+	font-size: 14px;
+	text-align: center;
+	width: 80%;
+	clear: both;
+}
+
+
+
+
+
+
+
+#about {
+
+}
+#about .inner {
+	background-color: hsla(0,0%,100%,1.00);
+	padding-top: 100px;
+	display: table;
+
+}
+
+#about .left {
+	text-align: left;
+	background-color: hsla(0,0%,100%,1.00);
+	padding-left: 100px;
+	padding-right: 25px;
+	font-size: 12px;
+}
+#about .left t {
+	border-bottom: thick solid #EDCD1F;
+	color: #B6B6B6;
+}
+
+#about .inner .right {
+	display: table-cell;
+	background-image: url(../images/placeholder/OIL-RIG-MFS.jpg);
+	width: 50%;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#contact {
+}
+#contact .inner {
+	padding-top: 100px;
+}
+#contact .inner t {
+	border-bottom: thick solid #EDCD1F;
+	color: #B6B6B6;
+}
+#contact .inner .locationBox {
+	text-align: left;
+	width: 80%;
+	display: inline-block;
+}
+.inner .locationBox t1 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #3D5975;
+	border-bottom-color: #EDCD1f;
+	border-bottom-width: thick;
+
+
+}
+.inner .locationBox .line {
+	border-top: thick solid #1E2D3B;
+}
+
+.inner .locationBox .item {
+	text-align: left;
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	background-color: hsla(209,33%,17%,0.50);
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	width: 30%;
+	border-radius: 16px;
+}
+.locationBox .item img {
+	width: 30%;
+}
+.locationBox .item p {
+	font-size: 80%;
+}
+#footer {
+	height: 100px;
+	line-height: 100px;
+	background-color: #FFFFFF;
+	border-top: thick solid #EDCD1F;
+
+}
